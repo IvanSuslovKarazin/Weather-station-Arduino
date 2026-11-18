@@ -33,8 +33,8 @@ Create project with Arduino and JavaScript, Node.js, Mongo.db, Render, Postman
    ```json
    {
      "temperature": 23.5,
-     "humidity": 48 %,
-     "light": 70%
+     "humidity": 48,
+     "light": 70
    }
    ```
 2. **Команды управления устройством** (Участник 4 отправляет с сайта → Участник 2 сохраняет → Участник 1 выполняет на Arduino):

@@ -38,7 +38,7 @@ parser.on('data', async(rawLine) => {          // - оскільки всере�
     typeof sensorData.light === 'number';
 
   if (!isValid) {
-    console.warn('[Parser] Неповні данні:', sensorData);
+    console.warn('[Parser] Невірний тип данних:', sensorData);
     return;
   }
 
